@@ -1,0 +1,39 @@
+.Hader-Container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+.Header-Logo {
+  display: flex;
+  gap: 20px;
+  /* font-size: 22px; */
+  /* font-weight: 700; */
+}
+
+.Header-Navs {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.Header-Burger{
+  display: none;
+}
+
+@media screen and (width <= 555px) {
+  .Header-Nav{
+    display: none;
+  }
+  .Header-Button {
+    display: none;
+  }
+}
+
+.Hader-Burger {
+  display: block;
+}

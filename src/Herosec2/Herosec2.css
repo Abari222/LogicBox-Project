@@ -1,0 +1,16 @@
+.Herosec2-Container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+.Herosec2-Container .trackDeli {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  gap: 5px;
+}

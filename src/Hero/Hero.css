@@ -1,0 +1,58 @@
+.Hero-Container {
+  position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('../assets/HeroImage.png') no-repeat center center/cover;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    color: #fff;
+}
+
+.Hero-Container .overlay {
+  position: absolute;
+  top: 0;
+  left: 80;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+  z-index: 1;
+}
+
+/* .Hero-Pic{
+  width: 100%;
+  height: 100%; */
+  /* padding: 20px; */
+/* } */
+
+@media screen and (width <= 555px){
+  
+}
+
+.content {
+display: flex;
+width: 50%;
+/* justify-items: right; */
+justify-content: center;
+flex-direction: column;
+align-items: left;
+padding-left: 12px;
+gap: 20px;
+/* color: white; */
+}
+
+.Hero-Container .button {
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #5688c7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-items: right;
+  justify-content: center;
+  align-items: center;
+}
+

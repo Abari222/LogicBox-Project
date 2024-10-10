@@ -1,0 +1,28 @@
+.App-Container{
+  width: 100%;
+  height: 100% auto;
+  max-height: 1000vh;
+  background: white;
+}
+
+/* .App-Holder {
+  width: 100%;
+  height: 100% auto;
+  min-height: 100%;
+  background-color: black;
+} */
+
+.App-Content {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.App-Items {
+  width: 92%;
+  height: 100% auto;
+  top: 25%;
+  /* display: flex; */
+  gap: 30%;
+  margin-top: 10%;
+}

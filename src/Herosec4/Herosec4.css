@@ -1,0 +1,12 @@
+.biggerCard-Container {
+  position: relative;
+  width: 60%;
+  height: 70vh; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  margin-left: 20%;
+  color: white;
+}
